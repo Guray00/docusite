@@ -3,12 +3,10 @@ sidebar_position: 10
 ---
 # Strutture (struct)
 
-Le strutture, solitamente chiamate `struct`, consentono il raggruppamento di più informazioni all'interno di un solo contenitore. 
+Le strutture, solitamente chiamate `struct`, consentono il raggruppamento di più informazioni all'interno di un solo contenitore.
 
-:::tip Consiglio
-
+:::tip
 Puoi pensare a una struct come a una scatola con scompartimenti, in cui ogni scompartimento può contenere a sua volta altri oggetti.
-
 :::
 
 ## Sintassi
