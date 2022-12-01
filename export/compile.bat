@@ -1,7 +1,16 @@
 @ECHO OFF
 
+if [%1] == [] (
+echo:
+echo Nessun linguaggio specificato, compilo tutti i linguaggi
+echo:
+
+compile.bat cpp
+exit
+)
+
 :: nome del file di output, modifica questo campo per avere un nome personalizzato
-set OUTPUT=manuale
+set OUTPUT=manuale_%1
 
 :: se non viene inserito un nome, lo si recupera dal nome della cartella
 if [%OUTPUT%] == [] (
@@ -17,20 +26,25 @@ set PDFNAME="./output/%OUTPUT%.pdf"
 set WEBNAME="./output/%OUTPUT%.html"
 set EPUBNAME="./output/%OUTPUT%.epub"
 
+if %1 == cpp (set "TITLE=C++")
+if %1 == java (set "TITLE=Java")
+if %1 == c (set "TITLE=C")
+if %1 == py (set "TITLE=Python")
+if %1 == python (set "TITLE=Python")
 
 SETLOCAL EnableDelayedExpansion 
 
 :: recupera la lista di file contenuti in includes.txt
-for /f "Tokens=* Delims=" %%x in (includes.txt) do set files=!files! "../docs/%%x"
+for /f "Tokens=* Delims=" %%x in (includes/includes_%1.txt) do set files=!files! "../docs/%%x"
 
 :: notifica l'utente della creazione del file
 echo Creazione in corso dei file:
-for /f "Tokens=* Delims=" %%x in (includes.txt) do echo - "%%x"
+for /f "Tokens=* Delims=" %%x in (includes/includes_%1.txt) do echo - "%%x"
 echo:
 
 :: esegue il comando di creazione
 echo Creazione "%OUTPUT%.pdf" in corso...
-pandoc --pdf-engine=xelatex -s %files% -o %PDFNAME% --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./docs/" --standalone --embed-resources --metadata-file=config.yaml --filter pandoc-latex-environment
+pandoc --pdf-engine=xelatex -s %files% -o %PDFNAME% --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./docs/" --standalone --embed-resources --metadata-file=config.yaml -V title=%TITLE% --filter pandoc-latex-environment
 echo Compilazione PDF terminata.
 echo:
 
