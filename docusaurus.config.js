@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Ripetizioni di Informatica',
-  tagline: 'Il posto migliore dove imparare le cose!',
+  tagline: 'Documentazione per le ripetizioni di Informatica',
   url: 'https://doc.mlampis.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -70,6 +70,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/materiale', label: 'Materiale', position: 'left'},
+          {to: '/faq', label: 'FAQ', position: 'left'},
           {to: '/blog', label: 'News', position: 'left'},
           {
             href: 'https://esercizi.mlampis.dev',
@@ -85,18 +86,26 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'C++',
+                to: '/docs/category/c',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Utili',
             items: [
+			  {
+                label: 'links',
+                href: 'https://links.mlampis.dev',
+              },
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              }
+                label: 'Esercizi',
+                href: 'https://esercizi.mlampis.dev',
+              },
+			  {
+                label: 'ripetizioni.it',
+                href: 'https://skuolanet.mlampis.dev',
+              },
             ],
           },
           {

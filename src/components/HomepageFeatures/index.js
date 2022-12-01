@@ -5,31 +5,28 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Imparare facilmente',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/illustrations/coding.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Decine di guide sempre a tua disposizione
       </>
     ),
   },
   {
-    title: 'Focalizzati sui risultati',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Tutto quello che ti serve',
+    Svg: require('@site/static/img/illustrations/online_learning.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Tutto il materiale che ti serve è sempre disponibile online
       </>
     ),
   },
   {
     title: 'Esercitati',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/illustrations/programming.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Allenati prima di un compito o di un esame attraverso il portale dedicato
       </>
     ),
   },

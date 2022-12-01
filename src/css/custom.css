@@ -39,3 +39,10 @@
 	--ifm-color-primary-lightest: #c5d4f2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+.hero {
+    background-image: url("@site/static/img/wall2.svg");
+	background-size: 50%;
+}
