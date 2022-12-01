@@ -30,7 +30,7 @@ echo:
 
 :: esegue il comando di creazione
 echo Creazione "%OUTPUT%.pdf" in corso...
-pandoc --pdf-engine=xelatex -s %files% -o %PDFNAME% --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./docs/" --standalone --embed-resources --metadata-file=config.yaml
+pandoc --pdf-engine=xelatex -s %files% -o %PDFNAME% --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./docs/" --standalone --embed-resources --metadata-file=config.yaml --filter pandoc-latex-environment
 echo Compilazione PDF terminata.
 echo:
 

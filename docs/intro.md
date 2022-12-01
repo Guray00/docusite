@@ -4,14 +4,14 @@ sidebar_position: 0
 
 # Informazioni generali
 
- _Ciao!_ Sono **Marco**, sono uno studente magistrale in Software Engineering al Politecnico di Torino e mi sono laureato in Ingegneria Informatica all'università di Pisa. Nella vita sono un programmatore, uno smanettone e amante di videogiochi! Amo quello che studio, e per questo motivo fornisco ripetizioni di informatica con particolare attenzione a:
+ _Ciao!_ Sono **Marco**, sono uno studente magistrale in _Software Engineering_ al Politecnico di Torino e mi sono laureato in Ingegneria Informatica all'università di Pisa. Nella vita sono un programmatore, uno smanettone e amante di videogiochi! Amo quello che studio, e per questo motivo fornisco ripetizioni di informatica con particolare attenzione a:
 
 - programmazione (Java, C++, C, Python, C#, Javascript, PHP)
 - algoritmi e strutture dati
 - basi di Dati
 - più o meno tutto quello che riguarda l'informatica!
 
-Sia per studenti delle scuole superiori che per l'universita.  
+Sia per studenti delle scuole superiori che per l'universita.
 
 ## Come svolgo le lezioni
 

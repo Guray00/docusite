@@ -1,11 +1,10 @@
 # Domande frequenti
 
-Domande frequenti sullo svolgimento delle lezioni. Per ulteriori informazioni o
-maggiori dettagli non esitate a contattarmi.
+In questa pagina puoi trovare le domande più frequenti sullo svolgimento delle lezioni. Se dovessi aver bisogno di ulteriori informazioni e dettagli non esitate a contattarmi!
 
 
 ## 1. Di cosa ti occupi?
-Mi occupo di fornire assistenza in ambito informatico con particolare attenzione
+Fornisco assistenza in ambito informatico con particolare attenzione
 alla programmazione; ciò include e non è limitato a:
 - C
 - C++
@@ -16,11 +15,11 @@ alla programmazione; ciò include e non è limitato a:
 - Algoritmi e strutture dati
 - Basi di dati (mySQL)
 - Diagrammi a blocchi e pseudocodice
-- altro. . .
+- _molto altro!_
 
 ## 2. Dove avvengono le lezioni?
 Le lezioni vengono svolte sulla piattaforma Google Meet al seguente indirizzo:
-https://meet.google.com/xuv-rwjc-qvo
+https://meet.mlampis.dev
 
 ## 3. Fornisci del materiale? Dove lo trovo?
 Una delle cose che mi stanno più a cuore è garantire agli studenti la possibilità
@@ -36,24 +35,14 @@ svolta con lo studente, ma raccoglie tutti gli esercizi e tutto il materiale teo
 visto nel corso di tutti i tutoring che svolgo.
 
 ## 4. Dove trovo il materiale visto a lezione e/o fornito?
-Per semplificare le cose agli studenti, il materiale è sempre disponibile in multipla
-copia:
-• github (raccomandato): Sito principale in cui il materiale viene caricato e
-può essere revisionato. Tiene traccia delle date in cui faccio le modifiche
-per consentire agli studenti di vedere quando ho fatto l’ultima modifica.
-Link: https://github.com/Guray00/tutoring
-• Drive (più facile): E’ un mio drive personale dove il materiale viene
-caricato in automatico entro il giorno seguente dalla lezione. Molto simile
-a google drive e perciò facile.
-Link: https://drive.mlampis.dev/index.php/s/Mw9pASkynwaYRR7
-• Replit (non consigliato): Il materiale svolto durante la lezione è ovviamente
-in copia anche su replit, non è però consigliato utilizzare questa piattaforma
-per la revisione a causa del pericolo di modificare i file. E’ consigliato
-visionare i file da replit solo su mio invito.
+Per semplificare le cose agli studenti, il materiale è sempre disponibile ai seguenti link:
+
+- https://esercizi.mlampis.dev, trovi tutti gli esercizi che svolgo con gli studenti con relativa soluzione.
+- https://doc.mlampis.dev, la parte teorica svolta durante le lezioni.
 
 ## 5. Come funziona la prima lezione?
 Preferisco, all’inizio di ogni percorso con un nuovo studente, chiaccherare per una
-ventina di minuti prima della lezione effettiva per fare amicizia ed avere modo di
+ventina di minuti prima della lezione effettiva per sciogliere il ghiaccio ed avere modo di
 illustrare nel dettaglio come avvengono le lezioni (ovviamente gratuitamente!),
 in modo da non partire subito con la lezioni in modo “freddo e distaccato”.
 
@@ -80,7 +69,7 @@ Le lezioni avvengono su Google Meet (nota piattaforma per la comunicazione)
 mentre la lezione vera e propria, al fine di renderla il più interattiva possibile,
 avviene sulla piattaforma repl.it mentre i cenni teorici vengono presi insieme
 agli studenti mediante la condivisione a schermo su un ipad. Tale approccio è
-solitamente ben visto dagli studenti, perchè consente di lavorare insieme contemporaneamente e limitare momenti “morti” durante la lezione. L’informatica si
+solitamente ben visto dagli studenti, perchè consente di lavorare insieme contemporaneamente e limitare momenti “morti” durante la lezione. L’informatica si
 presta molto, per sua stessa natura, a un’approccio di questo tipo, in quanto dal
 vivo si avrebbe comunque a disposizione un solo computer per lavorare mentre
 in questo modo l’iterazione rappresenta un elemento cardine.
@@ -95,15 +84,14 @@ molto studenti, preferisco tenere la webcam spenta durante la lezione in modo
 da non occupare inutilmente banda.
 
 ## 10. Cosa studi?
-Sono studente di Ingegneria Informatica Presso l’università di Pisa.
+Sono studente magistarale in Software Engineering al Politecnico di Torino.
 
 ## 11. Perchè chiedi pacchetti di lezioni a nuovi studenti?
-Skuola.net purtroppo gestisce le commissioni relative ai tutor con una politica abbastanza aggressiva, portando a zero i guadagni dalla prima lezione e
-sfavorento l’erogazione di una singola lezione.
+ripetizioni.it purtroppo gestisce le commissioni relative ai tutor con una politica abbastanza aggressiva, portando a zero i guadagni dalla prima lezione e sfavorento l’erogazione di una singola lezione.
 
 ## 12. Si possono prenotare lezioni in presenza?
-Purtroppo dati gli impegni universitari non mi è possibile.
+Purtroppo non è possibile.
 
 ## 13. Su skuola.net mi viene chiesto skype, perchè?
 E’ una pratica standard di skuola.net, anche se non effettuo lezioni su quella
-piattaforma viene comunque richiesto agli studendi (purtroppo).
+piattaforma viene comunque richiesto agli studendi.

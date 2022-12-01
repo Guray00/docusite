@@ -41,7 +41,7 @@ echo
 echo Creazione "${OUTPUT}.pdf" in corso...
 echo $PDFNAME
 
-pandoc -s $str_files -o $PDFNAME --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./export/" --standalone --embed-resources --metadata-file=config.yaml
+pandoc -s $str_files -o $PDFNAME --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./export/" --standalone --embed-resources --metadata-file=config.yaml --filter pandoc-latex-environment
 #echo Compilazione PDF terminata.
 #echo
 
