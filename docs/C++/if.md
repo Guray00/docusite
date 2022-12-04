@@ -25,11 +25,11 @@ else{
 }
 ```
 
-::: caution
+:::caution
 **Attenzione:** Il blocco di codice che segue `else if` ed `else` è opzionale. Se non viene specificato nessun blocco di codice, il programma non esegue alcuna operazione. Inoltre è importante scrivere le keyword con caratteri minuscoli, in caso contrario si avrà errore
 :::
 
-::: tip
+:::tip
 **Suggerimento:** Non utilizzare `else if` ed `else` se non è necessario, in quanto possono rendere il codice meno leggibile.
 :::
 
@@ -52,8 +52,40 @@ else{
 }
 ```
 
-::: tip
+:::tip
 Puoi trovare a questo link alcuni esercizi su `if`:
 https://esercizi.mlampis.dev/book.php?langs=cpp
 :::
 
+### Esercitazione
+> Verificare se un numero inserito in input è pari.
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+
+int main(){
+
+  // dichiariamo una variabile
+  int a;
+
+  // invitiamo l'utente a inserire un valore
+  cout<<"Inserisci un numero: ";
+
+  // lo facciamo inserire
+  cin >> a;
+
+  // verifichiamo se un numero è pari
+  if (a%2 == 0){
+    cout<<"Numero pari";
+  }
+
+  else {
+    cout<<"Numero dispari";
+  }
+	
+	return 0;
+}
+```

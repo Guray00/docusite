@@ -31,6 +31,7 @@ if %1 == java (set "TITLE=Java")
 if %1 == c (set "TITLE=C")
 if %1 == py (set "TITLE=Python")
 if %1 == python (set "TITLE=Python")
+if %1 == algo (set "TITLE=Algoritmi e Strutture Dati")
 
 SETLOCAL EnableDelayedExpansion 
 

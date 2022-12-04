@@ -16,11 +16,11 @@ La sintassi di `for` è la seguente:
 
 ```cpp
 for (inizializzazione; verifica; passo){
-	// codice eseguito
+ // codice eseguito
 }
 ```
 
-::: note
+:::note
 **Nota**: spesso si utilizza il contatore `i` per indicare il numero di iterazioni.
 :::
 
@@ -53,12 +53,13 @@ for (int i = 1; i <= 2; ++i) {
 ```
 
 ## Esercitazione
-_Dato una numero mostrato a schermo, mostrarne la tabellina._
+
+> Dato una numero mostrato a schermo, mostrarne la tabellina.
 
 **esempio di output**:
 
 ```text
-Quale tabellina vorrestri mostrare? 5
+Quale tabellina vorresti mostrare? 5
 5 * 1   =  5
 5 * 2   =  10
 5 * 3   =  15
@@ -77,27 +78,27 @@ using namespace std;
 
 int main(){
 
-	// creiamo la variabile per salvare la tabellina
-	int numero;
-	
-	cout<<"Quale tabellina vorrestri mostrare? ";
+ // creiamo la variabile per salvare la tabellina
+ int numero;
+ 
+ cout<<"Quale tabellina vorrestri mostrare? ";
 
-	// facciamo inserire all'utente il numero
-	cin>>numero;
+ // facciamo inserire all'utente il numero
+ cin>>numero;
 
-	// vogliamo fare una azione ripetuta
-	// partena -> 1
-	// arrivo  -> 10 (incluso)
-	for(int cont=1; cont <= 10; cont = cont+1){
+ // vogliamo fare una azione ripetuta
+ // partena -> 1
+ // arrivo  -> 10 (incluso)
+ for(int cont=1; cont <= 10; cont = cont+1){
 
-		// stiamo mostrando qualcosa a schermo:
-		// numero " * " cont " = " prodotto
-		int prodotto= numero*cont;
-		
-		// 5 * 1   =  5
-		cout<<numero<<" * "<<cont<< " = "<<prodotto<<endl;
-	}
+  // stiamo mostrando qualcosa a schermo:
+  // numero " * " cont " = " prodotto
+  int prodotto= numero*cont;
+  
+  // 5 * 1   =  5
+  cout<<numero<<" * "<<cont<< " = "<<prodotto<<endl;
+ }
 
-	return 0;
+ return 0;
 }
 ```

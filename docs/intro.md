@@ -11,7 +11,7 @@ sidebar_position: 0
 - basi di Dati
 - più o meno tutto quello che riguarda l'informatica!
 
-Sia per studenti delle scuole superiori che per l'universita.
+Sia per studenti delle scuole superiori che per l'università.
 
 ## Come svolgo le lezioni
 

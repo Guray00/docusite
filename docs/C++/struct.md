@@ -13,7 +13,7 @@ Puoi pensare a una struct come a una scatola con scompartimenti, in cui ogni sco
 
 Per realizzare una struttura è sufficiente utilizzare la keyword `struct` seguita dalle `{}`; al loro interno andremo a mettere le variabili che faranno parte della nostra struttura.
 
-```c++
+```cpp
 struct {           	 // dichiarazione della struttura
 	int  contenuto1; // membro (variabile int)
 	char contenuto2; // membro (variabile char)
@@ -26,7 +26,7 @@ struct {           	 // dichiarazione della struttura
 
 Per accedere a una variabile membro della struttura si utilizza il nome della variabile seguita dal carattere `.`.
 
-```c++
+```cpp
 // dichiarazione della struttura
 struct {           	 
 	int  contenuto1; // membro (variabile int)
