@@ -125,7 +125,7 @@ const config = {
             items: [
               {
                 label: 'PayPal',
-                to: 'https://paypal.me/mlampis',
+                to: 'https://paypal.mlampis.dev',
               },
 			  {
                 label: 'Google Meet',
