@@ -1,4 +1,4 @@
-# List
+# list
 
 In Python, una lista è una raccolta ordinata di elementi. Si può pensare ad una lista come ad una sequenza di oggetti che possono essere di tipi diversi. Ad esempio, una lista potrebbe contenere un intero, una stringa e un'altra lista come elementi.
 
