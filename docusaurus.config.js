@@ -85,9 +85,21 @@ const config = {
           {
             title: 'Docs',
             items: [
+			  {
+				label: 'C',
+				to: 'docs/category/c',
+			  },
               {
                 label: 'C++',
-                to: '/docs/category/C++',
+                to: 'docs/category/c-1',
+              },
+			  {
+                label: 'Java',
+                to: 'docs/category/java',
+              },
+			  {
+                label: 'Python',
+                to: 'docs/category/python',
               },
             ],
           },
