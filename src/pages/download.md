@@ -1,8 +1,8 @@
 ---
-title: Materiale
+title: Download
 ---
 
-# Materiale
+# Download
 
 Tutto quello che è presente in questo sito può essere scaricato, in modo da avere una versione tascabile sempre a disposizione (anche se meno aggiornata).Il sito è disponibile nei seguenti formati:
 

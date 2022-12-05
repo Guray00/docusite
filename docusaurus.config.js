@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ripetizioni di Informatica',
-  tagline: 'Documentazione per le ripetizioni di Informatica',
+  title: 'Guide di Informatica',
+  tagline: 'Il tuo riferimento per diventare un esperto di programmazione',
   url: 'https://doc.mlampis.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'Tutoring',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Tutoring',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,13 +67,13 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guide',
           },
-          {to: '/materiale', label: 'Materiale', position: 'left'},
+          {to: '/download', label: 'Download', position: 'left'},
           {to: '/faq', label: 'FAQ', position: 'left'},
-          {to: '/blog', label: 'News', position: 'left'},
+          //{to: '/blog', label: 'News', position: 'left'},
           {
-            href: 'https://esercizi.mlampis.dev',
+            to: 'https://esercizi.mlampis.dev',
             label: 'Esercizi',
             position: 'right',
           },
@@ -108,15 +108,15 @@ const config = {
             items: [
 			  {
                 label: 'links',
-                href: 'https://links.mlampis.dev',
+                to: 'https://links.mlampis.dev',
               },
               {
                 label: 'Esercizi',
-                href: 'https://esercizi.mlampis.dev',
+                to: 'https://esercizi.mlampis.dev',
               },
 			  {
                 label: 'ripetizioni.it',
-                href: 'https://skuolanet.mlampis.dev',
+                to: 'https://skuolanet.mlampis.dev',
               },
             ],
           },
@@ -124,8 +124,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'News',
-                to: '/blog',
+                label: 'PayPal',
+                to: 'https://paypal.me/mlampis',
+              },
+			  {
+                label: 'Google Meet',
+                to: 'https://meet.mlampis.dev',
               }
             ],
           },
@@ -135,6 +139,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+		additionalLanguages: ["csharp", "java"],
       },
     }),
 };

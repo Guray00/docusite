@@ -46,3 +46,17 @@
     background-image: url("@site/static/img/wall2.svg");
 	background-size: 50%;
 }
+
+#__docusaurus > nav > div.navbar__inner > div.navbar__items.navbar__items--right > a {
+	background-color: #2f60b4;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 0 10px;
+}
+
+/*
+#docusaurus_skipToContent_fallback > header > div > p {
+	font-style: italic;
+}
+*/

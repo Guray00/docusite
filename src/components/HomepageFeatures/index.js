@@ -4,29 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Imparare facilmente',
+    title: 'Materiale selezionato',
     Svg: require('@site/static/img/illustrations/coding.svg').default,
     description: (
       <>
-        Decine di guide sempre a tua disposizione
+         Avrai a disposizione una vasta selezione di materiale teorico sulla programmazione, accuratamente scelto
+		 per essere facilmente comprensibile e di alta qualità.
       </>
     ),
   },
   {
-    title: 'Tutto quello che ti serve',
+    title: 'Risorse aggiornate',
     Svg: require('@site/static/img/illustrations/online_learning.svg').default,
     description: (
       <>
-        Tutto il materiale che ti serve è sempre disponibile online
+        Avrai accesso a risorse didattiche aggiornate e complete, che ti aiuteranno a comprendere gli argomenti 
+		e a migliorare le tue competenze in informatica.
       </>
     ),
   },
   {
-    title: 'Esercitati',
+    title: 'Esercizi su misura',
     Svg: require('@site/static/img/illustrations/programming.svg').default,
     description: (
       <>
-        Allenati prima di un compito o di un esame attraverso il portale dedicato
+        Potrai esercitarti in modo comodo e conveniente, senza dover dipendere dalla disponibilità degli insegnanti
+		o degli amici, così da identificare le lacune e concentrarti sugli argomenti più importanti.
       </>
     ),
   },
