@@ -87,7 +87,7 @@ const config = {
             items: [
               {
                 label: 'C++',
-                to: '/docs/category/c',
+                to: '/docs/category/C++',
               },
             ],
           },
