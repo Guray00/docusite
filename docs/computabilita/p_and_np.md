@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# Classi di complessità P e NP
+# Classi di complessità
 
 In informatica si dividono i problemi in più classi di complessità, in base alla loro difficoltà di risoluzione. Queste classi sono:
 

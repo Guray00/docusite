@@ -93,6 +93,23 @@ const sidebars = {
 		],
 	},
 
+	{
+		type: 'category',
+		label: 'Teoria della complessità',
+		link: {
+			type: 'generated-index',
+		},
+		items: [
+		'computabilita/introduzione',
+		'computabilita/p_and_np',
+		'computabilita/halt_problem',
+		'computabilita/sat',
+		'computabilita/somme_parziali',
+		'computabilita/zaino',
+		'computabilita/tsp',
+	],
+	},
+
 	
   ],
    

@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # SAT
 
 Il problema della soddisfacibilità booleana è il problema della decisione che, data una formula in logica booleana, determina se esiste un insieme di variabili tali da rendere l'esito della formula vera.
