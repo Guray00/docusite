@@ -1,4 +1,4 @@
 intro.md
-C++/if.md
-C++/for.md
-C++/struct.md
+cpp/if.md
+cpp/for.md
+cpp/struct.md

@@ -84,7 +84,7 @@ molto studenti, preferisco tenere la webcam spenta durante la lezione in modo
 da non occupare inutilmente banda.
 
 ## 10. Cosa studi?
-Sono studente magistarale in Software Engineering al Politecnico di Torino.
+Sono studente magistarale in Software Engineering al Politecnico di Torino, ed ho conseguito la laurea triennale in Ingegneria Informatica all'Università di Pisa.
 
 ## 11. Perchè chiedi pacchetti di lezioni a nuovi studenti?
 ripetizioni.it purtroppo gestisce le commissioni relative ai tutor con una politica abbastanza aggressiva, portando a zero i guadagni dalla prima lezione e sfavorento l’erogazione di una singola lezione.
@@ -95,3 +95,15 @@ Purtroppo non è possibile.
 ## 13. Su skuola.net mi viene chiesto skype, perchè?
 E’ una pratica standard di skuola.net, anche se non effettuo lezioni su quella
 piattaforma viene comunque richiesto agli studendi.
+
+## 14. Il prezzo della lezione da cosa è influenzato?
+
+La mia attività di tutoraggio, come già menzionato sopra, non fa riferimento unicamente alla lezione svolta con lo studente, ma bensì compre il materiale di supporto aggiuntivo che viene costantemente aggiornato e ampliato settimanalmente.
+
+Ciò comporta delle spese aggiuntive rispetto ad altri docenti, come:
+
+- Il costo del dominio per il portale degli esercizi https://esercizi.mlampis.dev e del portale delle guide https://guide.mlampis.dev.
+- I software necessari alla lezione: il programma con cui prendo gli appunti sull'ipad e quello con cui condivido lo schermo durante la lezione.
+- Il tempo, fuori dalla lezione, impiegato per la manutenzione settimanale dei portale, la creazione di nuovi esercizi e la stesura delle slide prima delle lezioni.
+
+Per riuscire a garantire un servizio di qualità è perciò necessario dedicargli ulteriori attenzioni.

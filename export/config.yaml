@@ -10,7 +10,6 @@ date: "\\today"
 titlepage: true
 titlepage-color: "154C79"
 titlepage-text-color: "FFFFFF"
-titlepage-background: "./background.pdf"
 titlepage-rule-height: 0
 
 # table of contents

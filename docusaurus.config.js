@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Guide di Informatica',
   tagline: 'Il tuo riferimento per diventare un esperto di programmazione',
-  url: 'https://doc.mlampis.dev',
+  url: 'https://guide.mlampis.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Tutoring',
+        title: 'Home',
         logo: {
-          alt: 'Tutoring',
+          alt: 'Home',
           src: 'img/logo.svg',
         },
         items: [

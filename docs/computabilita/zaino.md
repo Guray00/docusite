@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Problema dello zaino
 
 Il **problema dello zaino**, o in inglese _Knapsack problem_, è un problema di _ottimizzazione combinatoria_ che si pone il seguente problema: 
@@ -16,16 +12,18 @@ Questo problema è detto np-completo, in quanto:
 
 Il tempo di trovare la risposta è pari a `O(2^n)`, dove `n` è il numero di oggetti, ovvero quello di valutare tutti i sottoinsiemi.
 
-## Esempio di problema dello zaino
+Il problema dello zaino può essere risolto in modo efficiente utilizzando un algoritmo di **programmazione dinamica**. Tuttavia, poiché il problema dello zaino è un problema **NP-completo**, non esiste un algoritmo noto per risolverlo in tempo polinomiale per un numero arbitrario di oggetti e di capacità dello zaino.
 
-Dato uno zaino con capacità massima _10kg_, e una lista di oggetti con peso e valore:
+## Esempio
 
-| oggetto  | peso  | valore |
-|----------|-------|--------|
-| Computer | 2kg   | 300€   |
-| Quaderni | 3kg   | 8€     |
-| Merenda  | 0.5kg | 2€     |
-| Tablet   | 1kg   | 225€   |
-| Libri    | 5kg   | 70€    |
+Ad esempio, immaginiamo di avere a disposizione uno zaino con una capacità di _20 chilogrammi_ e di dover scegliere tra i seguenti oggetti:
 
-Qual è la combinazione di oggetti che massimizza il valore senza superare la capacità massima di peso? Per trovare la risposta sarebbe necessario verificare tutti i sottoinsiemi di oggetti, ma questo è impossibile in tempo polinomiale.
+| oggetto              | peso | valore   |
+|----------------------|------|----------|
+| Libro                | 1kg  | 10 euro  |
+| Lampada              | 3kg  | 20 euro  |
+| Computer             | 5kg  | 100 euro |
+| Materasso gonfiabile | 8kg  | 40 euro  |
+
+
+Una possibile soluzione al problema dello zaino per questa situazione sarebbe scegliere di inserire nel nostro zaino il libro, la lampada e il computer portatile, poiché questi oggetti hanno un valore totale di `130` euro e un peso totale di `9 kg`, che è inferiore alla capacità massima dello zaino.

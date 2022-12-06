@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Problema dell'arresto
 
-Nella teoria della computabilità, il **problema dell'arresto** (in inglese _halting problem_) si pone il problema di determinare, dato un _programma_ e un _input_, se questo terminerà o continuerà a eseguire per sempre. E' stato Alan Turing, nel 1936, a dimostrare che non è possibile avere un algoritmo generale per risolvere questo problema.
+Nella teoria della computabilità, il **problema dell'arresto** (in inglese _halting problem_) si pone il problema di determinare, dato un _programma_ e un _input_, se questo terminerà in un tempo finito o continuerà per sempre. E' stato Alan Turing, nel 1936, a dimostrare che non è possibile avere un algoritmo generale per risolvere questo problema.
 
 ## Dimostrazione
 

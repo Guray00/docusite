@@ -1,0 +1,8 @@
+intro.md
+computabilita/introduzione.md
+computabilita/p_and_np.md
+computabilita/halt_problem.md
+computabilita/sat.md
+computabilita/somme_parziali.md
+computabilita/zaino.md
+computabilita/tsp.md
