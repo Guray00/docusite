@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Problema dell'arresto
 
 Nella teoria della computabilità, il **problema dell'arresto** (in inglese _halting problem_) si pone il problema di determinare, dato un _programma_ e un _input_, se questo terminerà in un tempo finito o continuerà per sempre. E' stato Alan Turing, nel 1936, a dimostrare che non è possibile avere un algoritmo generale per risolvere questo problema.
@@ -25,8 +21,8 @@ boolean P1(a, d):
 
 Visto che per `P1` sia il parametro `A` che il parametro `I` sono solo delle sequenze di simboli _(non conoscendo differenza tra programmi e dati)_, possiamo richiamare `P1` fornendo `A` sia come algoritmo che come input: `P1(A, A)`. Prendiamo ora un'altra funzione `P2` a cui viene passato `A` come argomento e tale che:
 
-- se `P1(A, A)` termina, restituisce `true`
-- se `P1(A, A)` non termina, prosegue all'infinito (`while(true);`)
+- se `P1(A, A)` non termina, restituisce `true`
+- se `P1(A, A)` termina, prosegue all'infinito in quanto esegue `while(true);`
 
 ```pseudo
 boolean P2(A):
@@ -46,7 +42,7 @@ Se passiamo a `P2` come parametro il risultato stesso di `P2`, dunque `P2(P2)`, 
 Ricadiamo allora in un assurdo, perché per avere come risultato `true` è necessario che `P2` non termini, ma allo stesso tempo se sta fornendo un risultato è terminato!
 
 :::note
-**Nota:** Un algoritmo per assurdo ha una logica simile alla frase _"io mento"_, in quanto si basa sul presupposto che se l'affermazione è vera, per assurdo, è anche vera.
+**Nota:** Un algoritmo per assurdo ha una logica simile alla frase _"io mento"_, in quanto si basa sul presupposto che se l'affermazione è vera, per assurdo, è anche falsa.
 :::
 
 :::note
