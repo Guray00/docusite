@@ -1,7 +1,7 @@
-# If
-In Java, l'istruzione if viene utilizzata per eseguire un blocco di codice solo se una condizione specificata è vera. Ad esempio, potremmo utilizzare un'istruzione if per stampare un messaggio solo se un numero è maggiore di 10.
+# if
+In Java, l'istruzione `if` viene utilizzata per eseguire un blocco di codice solo se una condizione specificata è vera. Ad esempio, potremmo utilizzare un'istruzione if per stampare un messaggio solo se un numero è maggiore di 10.
 
-La sintassi per utilizzare un'istruzione if in Java è la seguente:
+La sintassi per utilizzare un'istruzione `if` in Java è la seguente:
 
 ```java
 if (condizione) {

@@ -5,6 +5,7 @@ python/variabili.md
 python/print.md
 python/input.md
 python/comment.md
+python/if.md
 python/for.md
 python/while.md
 python/liste.md

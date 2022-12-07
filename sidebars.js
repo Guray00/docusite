@@ -91,6 +91,7 @@ const sidebars = {
 		'python/print',
 		'python/input',
 		'python/comment',
+		'python/if',
 		'python/for',
 		'python/while',
 		'python/liste',
