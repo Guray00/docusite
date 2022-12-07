@@ -85,11 +85,17 @@ const sidebars = {
 			type: 'generated-index',
 		},
 		items: [
+		'python/introduzione',
+		'python/tipi',
+		'python/variabili',
+		'python/print',
+		'python/input',
 		'python/comment',
 		'python/for',
 		'python/while',
 		'python/liste',
 		'python/tuple',
+		'python/main',
 		],
 	},
 

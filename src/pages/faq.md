@@ -32,11 +32,11 @@ Per me, garantire agli studenti la possibilità di condividere materiale didatti
 Per semplificare le cose agli studenti, il materiale è sempre disponibile ai seguenti link:
 
 - <https://esercizi.mlampis.dev>, trovi tutti gli esercizi che svolgo con gli studenti con relativa soluzione.
-- <https://doc.mlampis.dev>, la parte teorica svolta durante le lezioni.
+- <https://guide.mlampis.dev>, la parte teorica svolta durante le lezioni.
 
 ## 5. Come funziona la prima lezione?
 
-Preferisco, all’inizio di ogni percorso con un nuovo studente, chiaccherare per una
+Preferisco, all’inizio di ogni percorso con un nuovo studente, chiacchierare per una
 ventina di minuti prima della lezione effettiva per sciogliere il ghiaccio ed avere modo di
 illustrare nel dettaglio come avvengono le lezioni (ovviamente gratuitamente!),
 in modo da non partire subito con la lezioni in modo “freddo e distaccato”.
@@ -67,7 +67,7 @@ Le lezioni avvengono su Google Meet (nota piattaforma per la comunicazione)
 mentre la lezione vera e propria, al fine di renderla il più interattiva possibile,
 avviene sulla piattaforma repl.it mentre i cenni teorici vengono presi insieme
 agli studenti mediante la condivisione a schermo su un ipad. Tale approccio è
-solitamente ben visto dagli studenti, perchè consente di lavorare insieme contemporaneamente e limitare momenti “morti” durante la lezione. L’informatica si
+solitamente ben visto dagli studenti, perché consente di lavorare insieme contemporaneamente e limitare momenti “morti” durante la lezione. L’informatica si
 presta molto, per sua stessa natura, a un’approccio di questo tipo, in quanto dal
 vivo si avrebbe comunque a disposizione un solo computer per lavorare mentre
 in questo modo l’iterazione rappresenta un elemento cardine.
@@ -84,19 +84,19 @@ da non occupare inutilmente banda.
 
 ## 10. Cosa studi?
 
-Sono studente magistarale in Software Engineering al Politecnico di Torino, ed ho conseguito la laurea triennale in Ingegneria Informatica all'Università di Pisa.
+Sono studente magistrale in Software Engineering al **Politecnico di Torino**, ed ho conseguito la laurea triennale in Ingegneria Informatica all'**Università di Pisa**.
 
-## 11. Perchè chiedi pacchetti di lezioni a nuovi studenti?
+## 11. Perché chiedi pacchetti di lezioni a nuovi studenti?
 
-ripetizioni.it purtroppo gestisce le commissioni relative ai tutor con una politica abbastanza aggressiva, portando a zero i guadagni dalla prima lezione e sfavorento l’erogazione di una singola lezione.
+ripetizioni.it purtroppo gestisce le commissioni relative ai tutor con una politica abbastanza aggressiva, portando a zero i guadagni dalla prima lezione e sfavorendo l’erogazione di una singola lezione.
 
 ## 12. Si possono prenotare lezioni in presenza?
 
 Purtroppo non è possibile.
 
-## 13. Su skuola.net mi viene chiesto skype, perchè?
+## 13. Su ripetizioni.it mi viene chiesto skype, perché?
 
-E’ una pratica standard di skuola.net, anche se non effettuo lezioni su quella
+E’ una pratica standard di ripetizioni.it, anche se non effettuo lezioni su quella
 piattaforma viene comunque richiesto agli studendi.
 
 ## 14. Il prezzo della lezione da cosa è influenzato?

@@ -34,6 +34,13 @@ if %1 == python (set "TITLE=Python")
 if %1 == algo (set "TITLE=Algoritmi e Strutture Dati")
 if %1 == compu (set TITLE="Teoria della Complessita'")
 
+if %1 == cpp (set COLOR="FFFFFF")
+if %1 == java (set COLOR="FFFFFF")
+if %1 == c (set COLOR="FFFFFF")
+if %1 == python (set COLOR="22496a")
+if %1 == algo (set COLOR="FFFFFF")
+if %1 == compu (set COLOR="000000")
+
 SETLOCAL EnableDelayedExpansion 
 
 :: recupera la lista di file contenuti in includes.txt
@@ -46,7 +53,7 @@ echo:
 
 :: esegue il comando di creazione
 echo Creazione "%OUTPUT%.pdf" in corso...
-pandoc --pdf-engine=xelatex -s %files% -o %PDFNAME% --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./docs/" --standalone --embed-resources --metadata-file=config.yaml -V title=%TITLE% -V titlepage-background="./backgrounds/background_%1.pdf" --toc-depth=2 --filter pandoc-latex-environment
+pandoc --pdf-engine=xelatex -s %files% -o %PDFNAME% --from markdown --template eisvogel --listings --number-sections -V lang=it --top-level-division=chapter -V toc=true --resource-path="./docs/" --standalone --embed-resources --metadata-file=config.yaml -V title=%TITLE% -V titlepage-background="./backgrounds/background_%1.pdf" -V titlepage-text-color=%COLOR% --toc-depth=2 --filter pandoc-latex-environment
 echo Compilazione PDF terminata.
 echo:
 

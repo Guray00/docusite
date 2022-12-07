@@ -9,7 +9,6 @@ date: "\\today"
 # PDF: copertina
 titlepage: true
 titlepage-color: "154C79"
-titlepage-text-color: "FFFFFF"
 titlepage-rule-height: 0
 
 # table of contents
