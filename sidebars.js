@@ -28,13 +28,18 @@ const sidebars = {
 		 },
 		items: [
 		'c/introduzione',
+		'c/main',
 		'c/variabili',
 		'c/if',
 		'c/switch',
 		'c/for',
+		'c/while',
 		'c/do-while',
 		'c/array',
+		'c/string',
 		'c/struct',
+		'c/funzioni',
+		'c/file',
 		],
 	},
 

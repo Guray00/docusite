@@ -1,9 +1,14 @@
 intro.md
 c/introduzione.md
+c/main.md
 c/variabili.md
 c/if.md
 c/switch.md
 c/for.md
+c/while.md
 c/do-while.md
 c/array.md
+c/string.md
 c/struct.md
+c/funzioni.md
+c/file.md

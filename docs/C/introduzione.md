@@ -1,10 +1,11 @@
 # Introduzione
 
-C è un linguaggio di programmazione procedurale a basso livello e general-purpose sviluppato da Dennis Ritchie negli anni '70 per sistemi operativi di tipo UNIX. È stato successivamente adottato da molti altri sistemi operativi e platforme hardware e, a partire dagli anni '80, è stato utilizzato come linguaggio di riferimento per lo sviluppo di altri linguaggi, come C++ e Java.
+Il _C_ è un linguaggio di programmazione procedurale a basso livello e general-purpose sviluppato da _Dennis Ritchie_ negli anni '70 per sistemi operativi di tipo UNIX. È stato successivamente adottato da molti altri sistemi operativi e piattaforme hardware e, a partire dagli anni '80, è stato utilizzato come linguaggio di riferimento per lo sviluppo di altri linguaggi, come C++ e Java.
 
 Uno dei principali punti di forza di C è la sua efficienza e la sua capacità di controllo diretto delle risorse hardware del sistema. Queste caratteristiche lo rendono un linguaggio adatto allo sviluppo di sistemi operativi, driver di dispositivi e altri tipi di codice che richiedono prestazioni elevate e un livello di controllo accurato.
 
-# Caratteristiche del linguaggio C
+## Caratteristiche del linguaggio C
+
 C è un linguaggio di programmazione procedurale, il che significa che i programmi sono suddivisi in funzioni che vengono eseguite in sequenza per completare un compito specifico.
 C è un linguaggio a basso livello, il che significa che fornisce un livello di controllo diretto sulla memoria e sulle risorse hardware del sistema.
 C è un linguaggio general-purpose, il che significa che può essere utilizzato per sviluppare una vasta gamma di applicazioni, dai sistemi operativi ai giochi.
@@ -39,3 +40,16 @@ int main() {
 ```
 
 Come puoi vedere, la funzione main() ha il tipo di dati int (che significa che restituisce un valore intero) e non accetta argomenti. Il codice del programma viene inserito all'interno delle parentesi graffe {} e, alla fine del codice, viene restituito il valore 0 per indicare che il programma è terminato correttamente.
+
+## Case sensitive
+
+Il linguaggio C è case sensitive, il che significa che le lettere minuscole e maiuscole sono considerate diverse. Per esempio, le variabili `a` e `A` sono considerate due variabili diverse.
+
+:::tip
+**ASuggerimento**: è possibile utilizzare le lettere maiuscole e minuscole per identificare le variabili, ma è una buona pratica utilizzare solo lettere minuscole per identificare le variabili.
+:::
+
+
+:::danger
+**Attenzione**: possono esistere variabili con stesso nome ma che differiscono per le lettere maiuscole e minuscole. Per esempio, `ciao` e `CIAO` sono due file diversi.
+:::
