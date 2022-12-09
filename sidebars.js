@@ -61,6 +61,7 @@ const sidebars = {
 		'cpp/vettori',
 		'cpp/stringhe',
 		'cpp/struct',
+		'cpp/puntatori',
 	  ],
     },
 

@@ -1,4 +1,13 @@
 intro.md
+cpp/introduzione.md
+cpp/variabili.md
 cpp/if.md
+cpp/switch.md
 cpp/for.md
+cpp/while.md
+cpp/do-while.md
+cpp/array.md
+cpp/vettori.md
+cpp/stringhe.md
 cpp/struct.md
+cpp/puntatori.md
