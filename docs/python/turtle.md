@@ -74,14 +74,10 @@ t.forward(x)
 Sposta la tartaruga indietro di `x` pixel:
 
 ```python
-
-```python
 t.backward(x)
 ```
 
 Ruota la tartaruga verso destra di `x` gradi:
-
-```python
 
 ```python
 t.right(x)
