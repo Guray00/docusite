@@ -100,9 +100,11 @@ const sidebars = {
 		'python/if',
 		'python/for',
 		'python/while',
+		'python/turtle',
 		'python/liste',
 		'python/tuple',
 		'python/main',
+		'python/oop',
 		],
 	},
 

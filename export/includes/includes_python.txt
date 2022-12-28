@@ -8,6 +8,8 @@ python/comment.md
 python/if.md
 python/for.md
 python/while.md
+python/turtle.md
 python/liste.md
 python/tuple.md
 python/main.md
+python/oop.md
