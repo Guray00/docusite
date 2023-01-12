@@ -1,4 +1,4 @@
-# Variabili
+# variabili
 
 In Python, le variabili sono utilizzate per memorizzare i valori che possono essere utilizzati in un programma. Una variabile può contenere una stringa, un numero intero o decimale, una booleana (cioè un valore vero o falso) o perfino un oggetto.
 

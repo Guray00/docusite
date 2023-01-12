@@ -1,4 +1,4 @@
-# Array
+# array
 In C, un array è una struttura di dati che ti permette di memorizzare una serie di elementi del medesimo tipo in un unico oggetto. Ad esempio, potresti creare un array di interi per memorizzare una serie di numeri interi, oppure un array di caratteri per memorizzare una stringa di testo.
 
 Per dichiarare un array in C, devi specificare il tipo di dati degli elementi che desideri memorizzare, seguito dal nome dell'array e dalle dimensioni dell'array tra parentesi quadre:

@@ -1,5 +1,5 @@
 
-# Array
+# array
 
 In Java, un array è una struttura dati che permette di archiviare una sequenza di valori di uno stesso tipo. Ogni elemento dell'array ha un indice, che permette di accedervi.
 

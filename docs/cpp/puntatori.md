@@ -1,4 +1,4 @@
-# Puntatori
+# puntatori
 
 I puntatori sono una caratteristica fondamentale del linguaggio di programmazione C++. Sono variabili che contengono indirizzi di memoria di altre variabili. In altre parole, un puntatore "punta" a un'altra variabile e ne permette l'accesso.
 

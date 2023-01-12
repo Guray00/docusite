@@ -1,4 +1,4 @@
-# Main
+# main
 
 In Python, il termine "main" si riferisce alla funzione principale del programma, ovvero la funzione che viene eseguita quando il programma viene avviato. In molti linguaggi di programmazione, la funzione principale viene solitamente chiamata main o main().
 

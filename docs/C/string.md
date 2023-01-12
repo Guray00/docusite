@@ -1,4 +1,4 @@
-# Stringhe
+# stringhe
 
 In C, una stringa è una sequenza di caratteri che può essere manipolata come un'unica entità.
 

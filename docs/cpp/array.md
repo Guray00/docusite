@@ -1,4 +1,5 @@
-# Array
+# array
+
 In C++, un array è una struttura dati che consente di memorizzare più valori di un determinato tipo in un unico contenitore. Gli elementi di un array sono accessibili tramite un indice, ovvero un numero che indica la posizione dell'elemento all'interno dell'array.
 
 Per dichiarare un array in C++, si utilizza la sintassi seguente:

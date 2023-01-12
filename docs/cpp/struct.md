@@ -1,7 +1,4 @@
----
-sidebar_position: 10
----
-# Strutture (struct)
+# struct
 
 Le strutture, solitamente chiamate `struct`, consentono il raggruppamento di più informazioni all'interno di un solo contenitore.
 

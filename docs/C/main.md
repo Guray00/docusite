@@ -1,4 +1,4 @@
-# Main
+# main
 
 In C, la funzione main è la funzione principale di un programma e viene eseguita quando il programma viene avviato.
 

@@ -1,4 +1,4 @@
-# Introduzione
+# introduzione
 
 Python è un linguaggio di programmazione e ad alto livello, il che significa che è facile da leggere, da scrivere e ha una sintassi semplice da comprendere. Questo lo rende ideale per chiunque, dai principianti agli esperti, che vogliano imparare a programmare.
 

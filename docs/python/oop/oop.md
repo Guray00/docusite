@@ -1,6 +1,17 @@
-# Programmazione Orientata agli Oggetti
+# programmazione orientata agli oggetti
 
-La **programmazione orientata agli oggetti** (OOP, dall'inglese "Object-Oriented Programming") è un paradigma di programmazione che si basa sulla creazione di "oggetti", che rappresentano entità reali o astratte, dotati di proprietà (chiamate "attributi") e di comportamenti (chiamati "metodi"). In Python, come in molti altri linguaggi di programmazione, è possibile utilizzare l'OOP per creare classi che rappresentino gli oggetti e per istanziare oggetti a partire da queste classi.
+La **programmazione orientata agli oggetti** (OOP, dall'inglese _"Object-Oriented Programming"_) è un paradigma di programmazione che si basa sulla creazione di "oggetti", che rappresentano entità reali o astratte, dotati di proprietà,chiamate **attributi**, e di "comportamenti", chiamati **metodi**. In Python è possibile utilizzare l'OOP per costruire "classi" che descrivano, in modo generale, il comportamento degli oggetti.
+
+Un esempio di classe potrebbe essere _Persona_, che ha tra i suoi attributi un _nome_, _cognome_, _genere_ e _anni_. Persone differenti con caratteristiche differenti, ad esempio Mario, Luca e Maria, possono essere rappresentate come istanze della classe _Persona_.
+
+## Definizione
+
+Una classe viene definità in python mediante l'utilizzo della keyword `class`, nel seguente modo:
+
+```python
+class NomeClasse:
+	# codice della classe
+```
 
 Ecco un esempio di come si può definire una classe in Python:
 

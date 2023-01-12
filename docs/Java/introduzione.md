@@ -1,4 +1,4 @@
-# Introduzione
+# introduzione
 
 Java è un linguaggio di programmazione orientato agli oggetti sviluppato da Sun Microsystems (ora Oracle Corporation) negli anni '90. È uno dei linguaggi di programmazione più popolari e diffusi al mondo e viene utilizzato per sviluppare un'ampia gamma di applicazioni, come giochi, app per dispositivi mobili, programmi per il Web e così via.
 

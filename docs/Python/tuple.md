@@ -1,4 +1,4 @@
-# Tuple
+# tuple
 
 In Python, una tupla è simile ad una lista, ma è immutabile, cioè una volta creata non può essere modificata. Una tupla viene utilizzata quando si vuole rappresentare un insieme di valori che non dovranno mai cambiare.
 

@@ -1,4 +1,4 @@
-# Turtle
+# turtle
 
 La libreria **turtle** di Python è un modulo che fornisce un'interfaccia grafica per il disegno di forme e figure geometriche utilizzando un "tartaruga" che si muove sullo schermo. La turtle si può muovere avanti e indietro, girare a destra e a sinistra, sollevare e abbassare il pennello per disegnare o non disegnare, e cambiare il colore del pennello per disegnare con diverse tonalità.
 

@@ -1,4 +1,4 @@
-# Vector
+# vector
 
 In C++, un vettore è una struttura di dati che rappresenta una sequenza di elementi di uno stesso tipo. I vettori sono molto utili quando si ha bisogno di lavorare con una serie di dati di uno stesso tipo, ad esempio per memorizzare le informazioni di un gruppo di studenti o per gestire un elenco di numeri.
 

@@ -1,4 +1,5 @@
-# Stringhe
+# stringhe
+
 In C++, una stringa è una sequenza di caratteri che rappresenta un testo. Una stringa può essere dichiarata utilizzando la classe string, che fa parte del namespace std.
 
 Per dichiarare una stringa in C++, si utilizza la sintassi seguente:

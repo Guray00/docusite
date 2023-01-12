@@ -1,4 +1,5 @@
-# Switch
+# switch
+
 In Java, l'istruzione switch viene utilizzata per eseguire un blocco di codice specifico in base al valore di una variabile. Ad esempio, potremmo utilizzare un'istruzione switch per stampare un saluto in base al giorno della settimana.
 
 La sintassi per utilizzare un'istruzione switch in Java è la seguente:

@@ -1,4 +1,4 @@
-# Stringhe
+# stringhe
 
 In Java, una stringa è una sequenza di caratteri. Le stringhe vengono utilizzate per rappresentare testo, ad esempio una parola o una frase.
 

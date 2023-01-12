@@ -1,4 +1,4 @@
-# File
+# file
 
 In **C**, come in molti altri linguaggi di programmazione, la gestione dei file viene effettuata tramite delle funzioni specifiche che permettono di aprire, leggere, scrivere e chiudere un file.
 

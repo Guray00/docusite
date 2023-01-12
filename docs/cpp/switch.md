@@ -1,4 +1,4 @@
-# Switch
+# switch
 
 Il costrutto switch è una struttura di controllo che viene utilizzata nei linguaggi di programmazione per eseguire uno specifico blocco di codice in base al valore di una variabile o di un'espressione.
 

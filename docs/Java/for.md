@@ -1,4 +1,4 @@
-# For
+# for
 
 In Java, il ciclo for viene utilizzato per eseguire un blocco di codice ripetutamente per un numero specifico di volte. Ad esempio, potremmo utilizzare un ciclo for per stampare tutti gli elementi di una matrice.
 

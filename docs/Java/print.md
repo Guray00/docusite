@@ -1,4 +1,4 @@
-# Print
+# print
 
 n Java, per stampare un messaggio o un valore a video si utilizza il metodo System.out.println(). Ad esempio, per stampare il messaggio "Ciao Mondo", si può scrivere:
 

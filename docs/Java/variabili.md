@@ -1,4 +1,4 @@
-# Variabili
+# variabili
 
 In Java, una variabile è un contenitore per memorizzare un valore. Ogni variabile ha un nome e un tipo, che determina il tipo di valore che può contenere. Ad esempio, una variabile di tipo int può contenere un numero intero, mentre una variabile di tipo String può contenere una stringa.
 

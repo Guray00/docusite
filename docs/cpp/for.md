@@ -1,8 +1,4 @@
----
-sidebar_position: 6
----
-
-# For
+# for
 
 Il ciclo `for` viene utilizzato quando si conosce il numero di iterazioni da compiere. Il ciclo `for` è composto da tre parti:
 

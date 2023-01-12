@@ -1,4 +1,5 @@
 # while
+
 In Python, il costrutto while è utilizzato per eseguire un blocco di codice ripetutamente finché una determinata condizione viene soddisfatta. Ad esempio, si può utilizzare il costrutto while per stampare una sequenza di numeri fino a quando l'utente non inserisce il numero 0:
 
 ```python

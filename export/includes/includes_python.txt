@@ -12,4 +12,5 @@ python/turtle.md
 python/liste.md
 python/tuple.md
 python/main.md
-python/oop.md
+python/oop/oop.md
+python/oop/metodi.md

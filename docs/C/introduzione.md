@@ -1,4 +1,4 @@
-# Introduzione
+# introduzione
 
 Il _C_ è un linguaggio di programmazione procedurale a basso livello e general-purpose sviluppato da _Dennis Ritchie_ negli anni '70 per sistemi operativi di tipo UNIX. È stato successivamente adottato da molti altri sistemi operativi e piattaforme hardware e, a partire dagli anni '80, è stato utilizzato come linguaggio di riferimento per lo sviluppo di altri linguaggi, come C++ e Java.
 

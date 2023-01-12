@@ -1,4 +1,4 @@
-# Do while
+# do-while
 
 In C++, il costrutto do-while è una variante del costrutto while che esegue il codice contenuto nel suo blocco almeno una volta, indipendentemente dal valore della condizione di uscita. In altre parole, il codice all'interno del blocco do viene eseguito almeno una volta, quindi la condizione viene verificata e, se risulta vera, il codice viene eseguito nuovamente. Questo processo continua finché la condizione resta vera.
 

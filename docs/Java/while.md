@@ -1,4 +1,5 @@
-# While
+# while
+
 In Java, il ciclo while viene utilizzato per eseguire un blocco di codice ripetutamente finché una condizione specificata è vera. Ad esempio, potremmo utilizzare un ciclo while per stampare i numeri da 1 a 10.
 
 La sintassi per utilizzare un ciclo while in Java è la seguente:

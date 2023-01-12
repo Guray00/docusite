@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # if
 
 Il costrutto `if` consente di verificare se una condizione è verificata ed eseguire un blocco di codice in base al risultato. L'esito è sempre di tipo **booleano**, ovvero può essere solo `true` o `false`.

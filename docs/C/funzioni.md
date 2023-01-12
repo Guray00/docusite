@@ -1,4 +1,4 @@
-# Funzioni
+# funzioni
 
 In C, una funzione è una porzione di codice che viene eseguita in risposta a una determinata richiesta. Le funzioni sono utilizzate per suddividere il codice in blocchi riutilizzabili che possono essere richiamati da altre parti del programma.
 

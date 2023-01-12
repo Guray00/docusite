@@ -1,4 +1,4 @@
-# Funzioni
+# funzioni
 
 In C++, una funzione è un blocco di codice che può essere riutilizzato più volte in un programma. Una funzione può accettare input in forma di argomenti e può restituire un valore di output.
 

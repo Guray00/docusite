@@ -1,4 +1,4 @@
-# Classi e oggetti
+# classi e oggetti
 
 In Java, una classe è un modello per creare oggetti che hanno proprietà e comportamenti simili. Ad esempio, potremmo avere una classe Persona che rappresenta una persona con proprietà come nome, età e indirizzo, e comportamenti come parlare e camminare.
 

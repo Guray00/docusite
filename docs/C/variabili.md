@@ -1,4 +1,4 @@
-# Variabili
+# variabili
 In C, una variabile è un contenitore utilizzato per memorizzare un valore. Ogni variabile ha un nome univoco e un tipo di dati che determina il tipo di valori che può contenere.
 
 Esempio:

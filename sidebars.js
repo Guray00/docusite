@@ -104,7 +104,17 @@ const sidebars = {
 		'python/liste',
 		'python/tuple',
 		'python/main',
-		'python/oop',
+		{
+			type: 'category',
+			label: 'OOP',
+			link: {
+			  type: 'generated-index',
+			},
+			items: [
+				'python/oop/oop',
+				'python/oop/metodi',
+			],
+		  },
 		],
 	},
 

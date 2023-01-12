@@ -1,4 +1,4 @@
-# Tipi
+# tipi
 
 In Python, i tipi di dato sono le categorie in cui vengono suddivisi i valori che possono essere memorizzati e manipolati in un programma. Ogni tipo di dato ha un insieme specifico di proprietà e metodi che possono essere utilizzati per lavorare con i valori di quel tipo.
 
