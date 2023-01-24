@@ -28,4 +28,4 @@ $$
 
 E' un metodo molto efficace per calcolare la radice quadrata di un numero, sopratutto perché si basa su una serie di approssimazioni che tendono ad avvicinarsi sempre di più alla soluzione vera.
 
-![Esempio algoritmo](../../build/img/calcolo_numerico/alg_babilonese.png)
+![Esempio algoritmo](../../static/img/calcolo_numerico/alg_babilonese.png)

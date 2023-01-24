@@ -22,3 +22,5 @@ yarn-error.log*
 # added
 #export/output
 ./docsite.code-workspace
+package.json
+package-lock.json
