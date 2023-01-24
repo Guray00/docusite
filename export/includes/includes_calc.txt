@@ -1,0 +1,5 @@
+intro.md
+calcolo_numerico/introduzione.md
+calcolo_numerico/approssimazione_radice.md
+calcolo_numerico/zeri_funzione.md
+calcolo_numerico/prng.md

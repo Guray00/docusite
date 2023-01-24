@@ -33,6 +33,7 @@ if %1 == py (set "TITLE=Python")
 if %1 == python (set "TITLE=Python")
 if %1 == algo (set "TITLE=Algoritmi e Strutture Dati")
 if %1 == compu (set TITLE="Teoria della Complessita'")
+if %1 == calc (set TITLE="Calcolo Numerico")
 
 if %1 == cpp (set COLOR="FFFFFF")
 if %1 == java (set COLOR="FFFFFF")
@@ -40,6 +41,7 @@ if %1 == c (set COLOR="FFFFFF")
 if %1 == python (set COLOR="22496a")
 if %1 == algo (set COLOR="FFFFFF")
 if %1 == compu (set COLOR="000000")
+if %1 == calc (set COLOR="000000")
 
 SETLOCAL EnableDelayedExpansion 
 

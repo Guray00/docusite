@@ -135,7 +135,20 @@ const sidebars = {
 	],
 	},
 
-	
+	{
+		type: 'category',
+		label: 'Calcolo Numerico',
+		link: {
+			type: 'generated-index',
+		},
+		items: [
+		'calcolo_numerico/introduzione',
+		'calcolo_numerico/approssimazione_radice',
+		'calcolo_numerico/zeri_funzione',
+	],
+	},
+
+
   ],
    
 };
