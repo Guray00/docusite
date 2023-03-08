@@ -45,4 +45,5 @@ do {
 		
 } while(dx - sx > precisione);
 ```
+
 ![Algortimo bisezione](../../static/img/calcolo_numerico/alg_bisez.png)

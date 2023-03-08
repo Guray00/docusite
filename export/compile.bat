@@ -5,8 +5,13 @@ echo:
 echo Nessun linguaggio specificato, compilo tutti i linguaggi
 echo:
 
-compile.bat cpp
-exit
+call compile.bat cpp
+call compile.bat java
+call compile.bat c
+call compile.bat python
+call compile.bat algo
+
+exit /b
 )
 
 :: nome del file di output, modifica questo campo per avere un nome personalizzato
@@ -29,7 +34,6 @@ set EPUBNAME="./output/%OUTPUT%.epub"
 if %1 == cpp (set "TITLE=C++")
 if %1 == java (set "TITLE=Java")
 if %1 == c (set "TITLE=C")
-if %1 == py (set "TITLE=Python")
 if %1 == python (set "TITLE=Python")
 if %1 == algo (set "TITLE=Algoritmi e Strutture Dati")
 if %1 == compu (set TITLE="Teoria della Complessita'")

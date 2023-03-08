@@ -1,6 +1,6 @@
 # for
 
-In Python, il costrutto for è utilizzato per eseguire un blocco di codice ripetutamente per ogni elemento di una sequenza di dati. Ad esempio, si può utilizzare il costrutto for per stampare tutti gli elementi di una lista di numeri:
+Il costrutto `for` è utilizzato per eseguire un blocco di codice ripetutamente per ogni elemento di una sequenza di dati. Ad esempio, si può utilizzare il costrutto for per stampare tutti gli elementi di una lista di numeri:
 
 ```python
 # Crea una lista di numeri
