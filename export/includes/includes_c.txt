@@ -11,4 +11,5 @@ c/array.md
 c/string.md
 c/struct.md
 c/funzioni.md
+c/ricorsione.md
 c/file.md

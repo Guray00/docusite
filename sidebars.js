@@ -39,6 +39,7 @@ const sidebars = {
 		'c/string',
 		'c/struct',
 		'c/funzioni',
+		`c/ricorsione`,
 		'c/file',
 		],
 	},
