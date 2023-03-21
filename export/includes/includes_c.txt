@@ -13,3 +13,4 @@ c/struct.md
 c/funzioni.md
 c/ricorsione.md
 c/file.md
+c/alg_ordinamento.md

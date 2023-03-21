@@ -1,38 +1,56 @@
 # stringhe
 
-In C, una stringa è una sequenza di caratteri che può essere manipolata come un'unica entità.
+In linguaggio C, una stringa è una sequenza di caratteri contigui memorizzati in memoria con un carattere terminatore di stringa, il carattere NULL ('\0'). La libreria string.h fornisce funzioni per la manipolazione delle stringhe, tra cui la copia, la concatenazione, la ricerca e la comparazione.
 
-Esempio:
-
-```c
-char nome[50] = "Mario Rossi";
-```
-
-In questo esempio, abbiamo dichiarato una variabile di tipo char chiamata nome che può contenere una stringa di al massimo 50 caratteri. Abbiamo quindi assegnato alla variabile nome la stringa "Mario Rossi".
-
-Possiamo utilizzare le funzioni della libreria string.h per manipolare le stringhe in C. Ad esempio, la funzione strlen può essere utilizzata per determinare la lunghezza di una stringa:
+Ecco alcuni esempi di dichiarazione di stringhe in C:
 
 ```c
-int lunghezza = strlen(nome); // lunghezza sarà uguale a 11
+char str1[] = "hello"; // dichiarazione di una stringa inizializzata
+char str2[10]; // dichiarazione di una stringa non inizializzata con una lunghezza massima di 10 caratteri
 ```
 
-In questo caso, abbiamo utilizzato la funzione strlen per determinare la lunghezza della stringa contenuta nella variabile nome. La variabile lunghezza conterrà quindi il valore 11, poiché la stringa "Mario Rossi" è composta da 11 caratteri.
-
-È anche possibile utilizzare la funzione strcpy per copiare una stringa in un'altra variabile:
+Per eseguire operazioni sulle stringhe, è necessario includere la libreria string.h. Ecco alcuni esempi di funzioni fornite dalla libreria:
 
 ```c
-char nome_copia[50];
-strcpy(nome_copia, nome); // nome_copia conterrà "Mario Rossi"
+strcpy(dest, src): copia la stringa src nella stringa dest.
 ```
-In questo caso, abbiamo utilizzato la funzione strcpy per copiare la stringa contenuta nella variabile nome nella variabile nome_copia. La variabile nome_copia conterrà quindi la stringa "Mario Rossi".
-
-È inoltre possibile utilizzare la funzione strcat per concatenare due stringhe:
 
 ```c
-char cognome[50] = "Bianchi";
-strcat(nome, cognome); // nome conterrà "Mario Rossi Bianchi"
+char src[] = "hello";
+char dest[10];
+strcpy(dest, src);
+printf("dest: %s\n", dest); // output: dest: hello
+strcat(dest, src): concatena la stringa src alla fine della stringa dest.
 ```
 
-In questo caso, abbiamo utilizzato la funzione strcat per concatenare la stringa contenuta nella variabile cognome alla fine della stringa contenuta nella variabile nome. La variabile nome conterrà quindi la stringa "Mario Rossi Bianchi".
+```c
+char dest[10] = "hello";
+char src[] = "world";
+strcat(dest, src);
+printf("dest: %s\n", dest); // output: dest: helloworld
+```
 
-Le stringhe sono un tipo di dati molto utile in C poiché permettono di manipolare facilmente sequenze di caratteri. Tuttavia, è importante ricordare di allocare sempre abbastanza spazio nella memoria per le stringhe utilizzate nel nostro programma per evitare errori o crash.
+In particolare, `strlen(str)` restituisce la lunghezza della stringa str, escluso il carattere terminatore di stringa.
+
+```c
+char str[] = "hello";
+int len = strlen(str);
+printf("length: %d\n", len); // output: length: 5
+```
+
+`strcmp(str1, str2)`: confronta le due stringhe str1 e str2 e restituisce un valore intero che indica la relazione tra le due stringhe. Restituisce 0 se le stringhe sono uguali, un valore positivo se str1 è maggiore di str2, e un valore negativo se str1 è minore di str2.
+
+```c
+char str1[] = "hello";
+char str2[] = "world";
+int cmp = strcmp(str1, str2);
+if (cmp == 0) {
+    printf("le stringhe sono uguali\n");
+} else if (cmp > 0) {
+    printf("str1 è maggiore di str2\n");
+} else {
+    printf("str1 è minore di str2\n");
+}
+```
+
+Questi sono solo alcuni esempi delle funzioni fornite dalla libreria string.h in C. Ci sono molte altre funzioni utili per la manipolazione delle stringhe, come strstr() per la ricerca di una sottostringa in una stringa, strtok() per la suddivisione di una stringa in sottostringhe, e strchr() per la ricerca di un carattere in una stringa.

@@ -41,6 +41,7 @@ const sidebars = {
 		'c/funzioni',
 		`c/ricorsione`,
 		'c/file',
+		'c/alg_ordinamento',
 		],
 	},
 
