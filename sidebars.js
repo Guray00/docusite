@@ -27,10 +27,10 @@ const sidebars = {
 			type: 'generated-index',
 		 },
 		items: [
-		'flowchart/introduzione.md',
-		'flowchart/variabili.md',
-		'flowchart/selezione.md',
-		'flowchart/cicli.md',
+		'flowchart/introduzione',
+		'flowchart/variabili',
+		'flowchart/selezione',
+		'flowchart/cicli',
 		],
 	},
 	{
