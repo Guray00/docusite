@@ -22,6 +22,19 @@ const sidebars = {
     'intro',
 	{
 		type: 'category',
+		label: 'Diagrammi a blocchi',
+		link: {
+			type: 'generated-index',
+		 },
+		items: [
+		'flowchart/introduzione.md',
+		'flowchart/variabili.md',
+		'flowchart/selezione.md',
+		'flowchart/cicli.md',
+		],
+	},
+	{
+		type: 'category',
 		label: 'C',
 		link: {
 			type: 'generated-index',
